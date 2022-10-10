@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+.translateContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.languajeSelector {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.languajeTranslate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.languajeTranslate__from,
+.languajeTranslate__to {
+    display: flex;
+    flex-direction: column;
+}
